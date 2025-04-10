@@ -175,8 +175,7 @@
 }
 
 .skills-list li:hover {
-    background-color: #14484B;
-    color: #f5f5f5;
+    background-color: #F3B941;
 }
   
   .projects-section .projects-container {
@@ -252,7 +251,7 @@
   }
   
   .project-link:hover {
-    background-color: #444;
+    background-color: #F3B941;
   }
   
   .project-skills {
@@ -285,6 +284,5 @@
   }
   
   .contact-list li a:hover {
-    background-color: #14484B;
-    color: #f5f5f5;
+    background-color: #F3B941;
   }
