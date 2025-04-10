@@ -132,26 +132,23 @@
   
   .skills-section .skills-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3개의 주요 카테고리 */
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     margin-top: 2rem;
     align-items: start;
     justify-items: center;
 }
 
-/* 각 주요 카테고리(Frontend, Backend, Other) 내부의 서브 카테고리를 위한 그리드 설정 */
 .skills-category {
     display: grid;
     gap: 1.5rem;
 }
 
-/* 서브 카테고리 컨테이너 스타일 (각 서브 카테고리의 제목과 리스트를 감쌈) */
 .skills-category .sub-category {
     display: grid;
     gap: 0.5rem;
 }
 
-/* 서브 카테고리 제목 스타일 */
 .sub-category-title {
     font-size: 1rem;
     border-bottom: 1px solid #14484B;
@@ -159,7 +156,6 @@
     margin-bottom: 0.5rem;
 }
 
-/* 스킬 리스트를 그리드 형태로 표시 (자동 채우기로 칼럼 구성) */
 .skills-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
@@ -167,7 +163,6 @@
     justify-content: start;
 }
 
-/* 리스트 아이템 기본 스타일 유지 */
 .skills-list li {
     background-color: #f5f5f5;
     color: #14484B;
@@ -184,7 +179,7 @@
   
   .projects-section .projects-container {
     margin-top: 2rem;
-    max-height: 80vh; /* 필요에 따라 이 값을 조정하세요 */
+    max-height: 80vh;
     overflow-y: auto;
   }
   
